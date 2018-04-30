@@ -1,4 +1,5 @@
 variables.private.include
+credentials.sh
 
 terraform.tfstate*
 *.tf

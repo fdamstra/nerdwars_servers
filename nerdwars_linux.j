@@ -58,7 +58,6 @@ runcmd:
   - cd /root
   - git clone https://github.com/fdamstra/nerdwars_servers.git
   - cd nerdwars_servers
-  - bash ./install.sh
 mounts:
   - [ xvdd, none, swap, sw, 0, 0 ]
 growpart:

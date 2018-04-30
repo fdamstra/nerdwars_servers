@@ -9,17 +9,17 @@ J2FLAGS=
 
 # Targets
 TFTARGETS=AWS_AMI_MAPS.tf nerdwars_linux.tf network_acl.tf provider.tf security.tf variables.tf vpcs_and_subnets.tf z_nextsteps.tf
-SHTARGETS=
+SHTARGETS=credentials.sh
 SOURCES=$(TFTARGETS:.tf=.j)
 
 all: $(TFTARGETS) $(SHTARGETS)
 
-%.tf: %.j banner.txt variables.include
+%.tf: %.j banner.txt variables.include variables.private.include
 	$(J2) $(J2FLAGS) $< -o $@.tmp
 	cat banner.txt $@.tmp > $@
 	rm $@.tmp
 
-%.sh: %.j variables.include
+%.sh: %.j variables.include variables.private.include
 	$(J2) $(J2FLAGS) $< -o $@
 	chmod 755 $@
 

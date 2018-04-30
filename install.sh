@@ -25,6 +25,7 @@ for a in *
 do
 	echo \*\*\* Installing ${a} 
 	cp ${a}/${a}_start* ~/ 
+	chmod 755 ~/${a}-start*
 	bash ${a}/${a}_install.sh
 	echo \*\*\* Install of ${a} complete.
 done
