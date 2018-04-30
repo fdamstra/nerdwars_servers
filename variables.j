@@ -57,10 +57,19 @@ variable "Nerdwars-Subnet" {
 # --------------------
 # Defaults are probably fine, but if you want to change
 # your performance, here's where you can tune.
+#
+# Recommendations from NS2:
+# 	2GB RAM
+# 	Faster Clock Speed
+# 		3.0GHz for 12 players
+# 		3.6GHz for 16 players
+#
+# t2.medium : $0.0464/hr - 2vCPU variable ECU, 4GB
+# m5.large  ; $0.096/hr  - 2vCPU 10 ECU, 8GB
 variable "Nerdwars-Linux-Instance-Type" {
   description = "What size instances do you want to deploy?"
   type = "string"
-  default = "t2.micro"
+  default = "t2.medium"
 }
 
 variable "EBS-Optimized" {

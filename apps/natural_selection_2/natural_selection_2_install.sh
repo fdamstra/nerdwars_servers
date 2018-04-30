@@ -1,7 +1,7 @@
 #! /bin/bash
 #
 # Run this on the instance to get NS2 running
-if [! -f /root/credentials.sh ]
+if [[! -f /root/credentials.sh ]]
 then
 	echo You must first create /root/credentials.sh
 fi
