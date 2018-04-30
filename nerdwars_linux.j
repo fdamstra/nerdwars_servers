@@ -55,12 +55,9 @@ runcmd:
   - cd ~/steam
   - wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz
   - tar zxf steamcmd_linux.tar.gz
-# 220070 is chivalry
-#
-#  - ./steamcmd.sh +login ${pvt.steam_login} ${pvt.steam_password} +app_update 220070 +quit
-  - ./steamcmd.sh +login anonymous +app_update 220070 +quit
-  - cp ~/steam/linux32/steamclient.so ~/steam/steamapps/common/chivalry_ded_server/Binaries/Linux/lib/
-  - echo 219640 > steamapps/common/chivalry_ded_server/Binaries/Linux/steam_appid.txt
+  - git clone https://github.com/fdamstra/nerdwars_servers.git
+  - cd nerdwars_servers
+  - bash ./install.sh
 mounts:
   - [ xvdd, none, swap, sw, 0, 0 ]
 growpart:
