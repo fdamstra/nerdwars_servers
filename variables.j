@@ -66,10 +66,11 @@ variable "Nerdwars-Subnet" {
 #
 # t2.medium : $0.0464/hr - 2vCPU variable ECU, 4GB
 # m5.large  ; $0.096/hr  - 2vCPU 10 ECU, 8GB
+# c5.large  : $0.085/hr -  2vCPU 8 ECO, 4GB
 variable "Nerdwars-Linux-Instance-Type" {
   description = "What size instances do you want to deploy?"
   type = "string"
-  default = "t2.medium"
+  default = "c5.large"
 }
 
 variable "EBS-Optimized" {
