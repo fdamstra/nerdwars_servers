@@ -57,7 +57,6 @@ runcmd:
   - tar zxf steamcmd_linux.tar.gz
   - cd /root
   - git clone https://github.com/fdamstra/nerdwars_servers.git
-  - cd nerdwars_servers
 mounts:
   - [ xvdd, none, swap, sw, 0, 0 ]
 growpart:
