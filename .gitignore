@@ -1,0 +1,10 @@
+variables.private.include
+
+terraform.tfstate*
+*.tf
+*.key
+*.crt
+*.csr
+*.tmp
+*.pem
+*.swp

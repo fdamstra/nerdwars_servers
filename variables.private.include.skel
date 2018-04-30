@@ -1,0 +1,11 @@
+{###################################################}
+{# Required *PRIVATE * Jinja Variables             #}
+{# Most users will need to customize these values. #}
+{###################################################}
+{# These may not be necessary for apps with anonymous right. #}
+{#############################################################}
+{# Steam Username #}
+{% set steam_username = "Make one"
+{% set steam_password = "With a password" %}
+
+

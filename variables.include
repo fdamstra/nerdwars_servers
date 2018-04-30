@@ -1,0 +1,32 @@
+{###################################################}
+{# Required Jinja Variables                        #}
+{# Most users will need to customize these values. #}
+{###################################################}
+{# AWS Key Pair Name #
+{# The name of the AWS Key Pair as identified in AWS IAM #}
+{% set AWS_Key_Pair_Name = "Fred-IO" %}
+
+{# Private Key File #
+{# The private key paired with the above IAM keyname #}
+{% set Private_Key_File = "~/.ssh/id_rsa" %}
+
+{# Domain Name #}
+{# The domain name. Must be hosted in Route53. #}
+{% set Domain_Name = "monkeybox.org" %}
+
+{# Domain Zone ID (Route53) #}
+{# The Route53 Zone ID #}
+{% set Domain_Zone_ID = "Z49JKEQC08KW8" %}
+
+{# Trust Source IPs in CIDR #}
+{# These IPs will have direct access to instances. Should include  #}
+{# the terraform master's IP address, as well as your workstation  #}
+{# or home IP. Can contain multiple entries.                       #}
+{% set Trusted_CIDR = '["99.56.213.129/32"]'  %}
+
+{###########################################}
+{# Optional Variables                      #}
+{# Default values are fine for most users. #}
+{###########################################}
+{# AWS Region #}
+{% set AWS_Region = "us-east-2" %}
