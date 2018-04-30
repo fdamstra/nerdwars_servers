@@ -5,6 +5,7 @@ output "NEXT-STEPS" {
   ssh ubuntu@nerdwars-linux.monkeybox.org
 2. Run install.sh:
   sudo su - 
+  cd nerdwars_servers
   ./install.sh
 EOF
 }

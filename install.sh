@@ -16,16 +16,16 @@ wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz
 tar zxf steamcmd_linux.tar.gz
 
 # Install git repo
-cd /root
-git clone https://github.com/fdamstra/nerdwars_servers.git
+#cd /root
+#git clone https://github.com/fdamstra/nerdwars_servers.git
 
 # Install Apps
-cd nerdwars_servers/apps
+cd /root/nerdwars_servers/apps
 for a in *
 do
 	echo \*\*\* Installing ${a} 
 	cp ${a}/${a}_start* ~/ 
-	chmod 755 ~/${a}-start*
+	chmod 755 ~/${a}_start*
 	bash ${a}/${a}_install.sh
 	echo \*\*\* Install of ${a} complete.
 done
