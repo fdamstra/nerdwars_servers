@@ -1,9 +1,14 @@
 #! /bin/bash
 #
 # Run this on the instance to get NS2 running
+if [! -f /root/credentials.sh ]
+then
+	echo You must first create /root/credentials.sh
+fi
 
-source ../../credentials.sh
+source /root/credentials.sh
+
+apt-get install -y speex:i386 libgtk2.0-0:i386 lib32gcc1
 
 cd /root/steam
-# 220070 is chivalry linux dedicated server
 ./steamcmd.sh +login ${STEAM_USERNAME} ${STEAM_PASSWORD} +force_install_dir /root/steam/natural_selection_2 +app_update 4940 validate +quit
