@@ -4,3 +4,16 @@ who aren't invited.
 
 Credentials are fake/anonymous. Server passwords may be valid if you happen to catch
 the server on the particular weekend it's up. 
+
+## Notes
+
+
+### Chivalry
+
+### Chivalry: Deadliest Warrior
+
+###
+
+## Reference
+To find a steam app ID, try: https://steamdb.info/search/
+

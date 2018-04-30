@@ -12,6 +12,7 @@ cat <<EO2 > /root/credentials.sh
 #! /bin/bash
 export STEAM_USERNAME="{{ pvt.steam_username }}"
 export STEAM_PASSWORD="{{ pvt.steam_password }}"
+export CSGO_KEY="{{ pvt.csgo_key }}"
 EO2
 
 cd nerdwars_servers

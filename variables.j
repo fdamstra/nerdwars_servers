@@ -82,7 +82,7 @@ variable "EBS-Optimized" {
 variable "Nerdwars-Linux-Volume-Size" {
   description = "How much swap do you need?"
   type = "string"
-  default = 10
+  default = 40
 }
 
 variable "Swap-Volume-Size" {

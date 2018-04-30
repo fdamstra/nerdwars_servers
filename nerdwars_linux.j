@@ -65,7 +65,7 @@ growpart:
   devices: ['/']
   ignore_growroot_disabled: false
 power_state:
-  delay: "+1"
+  delay: "now"
   mode: "reboot"
   message: "Rebooting after first init."
   condition: True

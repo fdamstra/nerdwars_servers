@@ -8,4 +8,5 @@
 {% set steam_username = "Make one"
 {% set steam_password = "With a password" %}
 
-
+{# CSGO - Get from https://steamcommunity.com/dev/managegameservers with game id 730 #}
+{% set csgo_key = "GetYourOwn" %}

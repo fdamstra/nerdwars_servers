@@ -1,8 +1,8 @@
 #! /bin/bash
 
 # Save all output
-exec > >(tee -i /root/install.log)
-exec 2>&1
+#exec > >(tee -i /root/install.log)
+#exec 2>&1
 
 # Install 386 compatibility
 dpkg --add-architecture i386
