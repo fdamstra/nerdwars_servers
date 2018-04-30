@@ -49,12 +49,13 @@ runcmd:
   - mkswap /dev/xvdd
   - swapon -a
   - dpkg --add-architecture i386
-  - apt-get update
-  - apt-get install libstdc++6:i386
-  - mkdir ~/steam
-  - cd ~/steam
-  - wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz
+  - apt-get -y update
+  - apt-get -y
+  - mkdir /root/steam
+  - cd /root/steam
+  - wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz 
   - tar zxf steamcmd_linux.tar.gz
+  - cd /root
   - git clone https://github.com/fdamstra/nerdwars_servers.git
   - cd nerdwars_servers
   - bash ./install.sh
