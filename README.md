@@ -12,7 +12,10 @@ the server on the particular weekend it's up.
 
 ### Chivalry: Deadliest Warrior
 
-###
+### CS:GO
+To join, go to "Play"->"Browse Community Servers"->"Favorites"->"Add a server"
+Enter "nerdwars-linux.monkeybox.org" and click "Find games at this address."
+Click connect, enter password
 
 ## Reference
 To find a steam app ID, try: https://steamdb.info/search/

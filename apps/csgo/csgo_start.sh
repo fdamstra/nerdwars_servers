@@ -1,6 +1,8 @@
 #! /bin/bash
 cd /root/csgo
 
+source /root/credentials.sh
+
 # Classic Casual
 #srcds_run -game csgo -console -usercon +game_type 0 +game_mode 0 +mapgroup mg_active +map de_dust2
 

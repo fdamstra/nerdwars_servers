@@ -23,7 +23,11 @@ tar zxf steamcmd_linux.tar.gz
 cd /root/nerdwars_servers/apps
 for a in *
 do
+	echo ''
+	echo ''
+	echo '***************************************'
 	echo \*\*\* Installing ${a} 
+	echo '***************************************'
 	cp ${a}/${a}_start* ~/ 
 	chmod 755 ~/${a}_start*
 	bash ${a}/${a}_install.sh

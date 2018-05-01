@@ -7,6 +7,14 @@
         "ns2_mineshaft",
         "ns2_tram",
         "ns2_veil",
-        "ns2_docking"
+        "ns2_docking",
+	"ns2_biodome",
+        "ns2_derelict",
+        "ns2_dm1_skybox",
+        "ns2_eclipse",
+        "ns2_caged",
+        "ns2_descent",
+        "ns2_kodiak",
+        "ns2_refinery"
     ]
 }
