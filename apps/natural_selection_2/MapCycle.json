@@ -1,0 +1,12 @@
+{
+    "time": 5,
+    "mode": "random",
+    "maps":
+    [
+        "ns2_summit",
+        "ns2_mineshaft",
+        "ns2_tram",
+        "ns2_veil",
+        "ns2_docking"
+    ]
+}
