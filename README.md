@@ -9,6 +9,7 @@ the server on the particular weekend it's up.
 
 
 ### Chivalry
+Start the server, search for monkeybox
 
 ### Chivalry: Deadliest Warrior
 Only runs on windows
