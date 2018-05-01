@@ -9,3 +9,6 @@ terraform.tfstate*
 *.tmp
 *.pem
 *.swp
+
+.terraform
+
