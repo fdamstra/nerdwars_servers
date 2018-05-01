@@ -1,5 +1,5 @@
 #! /bin/bash
-cd "/root/steam/steamapps/common/Counter-Strike\ Global\ Offensive\ Beta\ -\ Dedicated\ Server/"
+cd /root/csgo
 
 # Classic Casual
 #srcds_run -game csgo -console -usercon +game_type 0 +game_mode 0 +mapgroup mg_active +map de_dust2
