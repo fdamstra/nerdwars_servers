@@ -14,5 +14,5 @@ cd /root/steam
 ./steamcmd.sh +login ${STEAM_USERNAME} ${STEAM_PASSWORD} +force_install_dir /root/natural_selection_2 +app_update 4940 validate +quit
 
 mkdir -p /root/natural_selection_2/config
-cp /root/nerdwars_servers/apps/natural_selection_2/MapCycle.json /root/natural_selection_2/config
+cp /root/nerdwars_servers/apps/natural_selection_2/{MapCycle.json,ServerAdmin.json} /root/natural_selection_2/config
 
