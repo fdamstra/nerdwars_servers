@@ -18,6 +18,8 @@ EO2
 cd nerdwars_servers
 ./install.sh
 
+cd /root
+
 After installing natural selection servers, you can access http://nerdwars-linux.monkeybox.org:8080/index.html
 
 EOF
