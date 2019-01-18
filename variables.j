@@ -70,19 +70,19 @@ variable "Nerdwars-Subnet" {
 variable "Nerdwars-Linux-Instance-Type" {
   description = "What size instances do you want to deploy?"
   type = "string"
-  default = "c5.large"
+  default = "m5.large"
 }
 
 variable "EBS-Optimized" {
   description = "Should instances be deployed as EBS optimized?"
   type = "string"
-  default = false
+  default = true
 }
 
 variable "Nerdwars-Linux-Volume-Size" {
-  description = "How much swap do you need?"
+  description = "How much linux space do you need?"
   type = "string"
-  default = 40
+  default = 60
 }
 
 variable "Swap-Volume-Size" {
