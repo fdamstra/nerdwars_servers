@@ -8,7 +8,7 @@ J2=python bin/jj2.py
 J2FLAGS=
 
 # Targets
-TFTARGETS=AWS_AMI_MAPS.tf nerdwars_linux.tf network_acl.tf provider.tf security.tf variables.tf vpcs_and_subnets.tf z_nextsteps.tf
+TFTARGETS=AWS_AMI_MAPS.tf nerdwars_linux.tf network_acl.tf provider.tf security.tf variables.tf vpcs_and_subnets.tf z_nextsteps.tf backend.tf
 SHTARGETS=credentials.sh
 SOURCES=$(TFTARGETS:.tf=.j)
 
